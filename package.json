@@ -6,9 +6,11 @@
   "dependencies": {
     "node-ssh": "^6.0.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "jsdoc": "^3.6.2"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "docs": "rm -rf ./docs; ./node_modules/.bin/jsdoc -c .jsdoc.json; rm -rf ./docs/index.html; cp ./docs/NetSSH.html ./docs/index.html"
   },
   "author": "",
   "license": "ISC"
