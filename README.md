@@ -4,7 +4,7 @@ This is a Node.js module for connecting to network devices and issuing show comm
 
 Given this was mainly for personal use, and is pretty rudimentary (no configuration mode), it is not published on NPM.
 
-Ultimately, this a simiple wrapper of `node-ssh` which is a Promise-wrapper for `SSH2` in Node.js.
+Ultimately, this a simple wrapper of `node-ssh` which is a Promise-wrapper for `SSH2` in Node.js.
 
 # Docs
 
