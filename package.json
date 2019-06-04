@@ -12,6 +12,6 @@
   "scripts": {
     "docs": "rm -rf ./docs; ./node_modules/.bin/jsdoc -c .jsdoc.json; rm -rf ./docs/index.html; cp ./docs/NetSSH.html ./docs/index.html"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Ryan Wolfe",
+  "license": "MIT"
 }
