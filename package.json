@@ -2,7 +2,7 @@
   "name": "node-netssh",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "index.js",
   "dependencies": {
     "node-ssh": "^6.0.0"
   },
@@ -10,7 +10,7 @@
     "jsdoc": "^3.6.2"
   },
   "scripts": {
-    "docs": "rm -rf ./docs; ./node_modules/.bin/jsdoc -c .jsdoc.json; rm -rf ./docs/index.html; cp ./docs/NetSSH.html ./docs/index.html"
+    "docs": "rm -rf ./docs; ./node_modules/.bin/jsdoc -c .jsdoc.json"
   },
   "author": "Ryan Wolfe",
   "license": "MIT"
